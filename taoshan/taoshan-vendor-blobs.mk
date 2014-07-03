@@ -18,16 +18,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/bin/efsks:system/bin/efsks \
     vendor/sony/taoshan/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/taoshan/proprietary/bin/ks:system/bin/ks \
-	vendor/sony/taoshan/proprietary/bin/battery_monitor:system/bin/battery_monitor \
+    vendor/sony/taoshan/proprietary/bin/battery_monitor:system/bin/battery_monitor \
     vendor/sony/taoshan/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-	vendor/sony/taoshan/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-	vendor/sony/taoshan/proprietary/bin/fmconfig:system/bin/fmconfig \
-	vendor/sony/taoshan/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/sony/taoshan/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/sony/taoshan/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/sony/taoshan/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/taoshan/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/taoshan/proprietary/bin/netmgrd:system/bin/netmgrd \
-	vendor/sony/taoshan/proprietary/bin/irsc_util:system/bin/irsc_util \
-	vendor/sony/taoshan/proprietary/bin/akmd8963:system/bin/akmd8963 \
-	vendor/sony/taoshan/proprietary/bin/cci_tatest:system/bin/cci_tatest \
+    vendor/sony/taoshan/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/sony/taoshan/proprietary/bin/akmd8963:system/bin/akmd8963 \
+    vendor/sony/taoshan/proprietary/bin/cci_tatest:system/bin/cci_tatest \
     vendor/sony/taoshan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/taoshan/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/sony/taoshan/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -43,9 +43,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/sony/taoshan/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
     vendor/sony/taoshan/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
-	vendor/sony/taoshan/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-	vendor/sony/taoshan/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-	vendor/sony/taoshan/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/sony/taoshan/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/sony/taoshan/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/sony/taoshan/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/taoshan/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/taoshan/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/sony/taoshan/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
@@ -56,11 +56,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/taoshan/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/sony/taoshan/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/sony/taoshan/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/taoshan/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-	vendor/sony/taoshan/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
-	vendor/sony/taoshan/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/sony/taoshan/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+    vendor/sony/taoshan/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/sony/taoshan/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/sony/taoshan/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/sony/taoshan/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/sony/taoshan/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/sony/taoshan/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/taoshan/proprietary/etc/firmware/libpn544_fw.so:system/lib/libpn544_fw.so \
@@ -86,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     vendor/sony/taoshan/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/sony/taoshan/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/vendor-camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/vendor-lights.msm8960.so:system/lib/hw/vendor-lights.msm8960.so \
     vendor/sony/taoshan/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
@@ -94,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/taoshan/proprietary/lib/libalsa-intf.so:system/lib/libalsa-intf.so \
     vendor/sony/taoshan/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/sony/taoshan/proprietary/lib/libc.so:system/lib/libc.so \
     vendor/sony/taoshan/proprietary/lib/libchromatix_imx134_default_video.so:system/lib/libchromatix_imx134_default_video.so \
     vendor/sony/taoshan/proprietary/lib/libchromatix_imx134_hfr_120fps.so:system/lib/libchromatix_imx134_hfr_120fps.so \
     vendor/sony/taoshan/proprietary/lib/libchromatix_imx134_hfr_60fps.so:system/lib/libchromatix_imx134_hfr_60fps.so \
@@ -101,6 +105,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libchromatix_imx134_video_hd.so:system/lib/libchromatix_imx134_video_hd.so \
     vendor/sony/taoshan/proprietary/lib/libchromatix_imx134_video_hdr.so:system/lib/libchromatix_imx134_video_hdr.so \
     vendor/sony/taoshan/proprietary/lib/libchromatix_imx134_zsl.so:system/lib/libchromatix_imx134_zsl.so \
+    vendor/sony/taoshan/proprietary/lib/libcorkscrew.so:system/lib/libcorkscrew.so \
+    vendor/sony/taoshan/proprietary/lib/libcutils.so:system/lib/libcutils.so \
+    vendor/sony/taoshan/proprietary/lib/libdl.so:system/lib/libdl.so \
+    vendor/sony/taoshan/proprietary/lib/libgccdemangle.so:system/lib/libgccdemangle.so \
+    vendor/sony/taoshan/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/sony/taoshan/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
+    vendor/sony/taoshan/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/sony/taoshan/proprietary/lib/liblog.so:system/lib/liblog.so \
+    vendor/sony/taoshan/proprietary/lib/libm.so:system/lib/libm.so \
+    vendor/sony/taoshan/proprietary/lib/libstdc++.so:system/lib/libstdc++.so \
     vendor/sony/taoshan/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/sony/taoshan/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/sony/taoshan/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
@@ -112,10 +126,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/taoshan/proprietary/lib/libfastcvopt.so:system/lib/libfastcvopt.so \
     vendor/sony/taoshan/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/sony/taoshan/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/sony/taoshan/proprietary/lib/libgps.so:system/lib/libgps.so \
     vendor/sony/taoshan/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/taoshan/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/taoshan/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/taoshan/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
+    vendor/sony/taoshan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/taoshan/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/taoshan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/taoshan/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
@@ -133,7 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
     vendor/sony/taoshan/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
     vendor/sony/taoshan/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-	vendor/sony/taoshan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+    vendor/sony/taoshan/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/taoshan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/sony/taoshan/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/taoshan/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
@@ -161,8 +178,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/taoshan/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/sony/taoshan/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/sony/taoshan/proprietary/lib/librmp.so:system/lib/librmp.so \
+    vendor/sony/taoshan/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/sony/taoshan/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
     vendor/sony/taoshan/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/taoshan/proprietary/lib/libtime_genoff.so:obj/lib/libtime_genoff.so \
-	vendor/sony/taoshan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+    vendor/sony/taoshan/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/sony/taoshan/proprietary/lib/libtzplayready.so:system/lib/libtzplayready.so \
+    vendor/sony/taoshan/proprietary/lib/libutils.so:system/lib/libutils.so \
